@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+            <meta charset="UTF-8"/>
+            <title>login page!</title>
+            <link rel="stylesheet" href="Styles.css"> 
+            <script src="J.S.js"></script>
+    </head>
+    <body class="Body">
+        <header id="navHeader">
+                <nav>
+                    <ul>
+                        <li>
+                            <a target="_self" href="https://www.google.com"><p>Homepage</p></a>
+                        </li>
+                    </ul>
+                </nav>   
+        </header>
+        <main id="login">
+            <h1>Login!</h1>
+            <form action="adduser/" method="post">
+                <!--after the running server{% csrf_token %}-->
+                    <div class="input">
+                        <input id="Username" required autofocus type="text" name="Username/" placeholder="Username" minlength="3">
+                        <input id="Password" required autocomplete="off" type="password" name="Password/" placeholder="Password" minlength="8"/> 
+                    </div>
+                    <div>
+                        <button type="submit" name="submit" formtarget="_self" onclick="UserMinLength(document.getElementById('Username').value),PassMinLength(document.getElementById('Password').value)">login</button>
+                        <button type="reset">Clear</button>
+                    </div>
+            </form>
+            <br/>
+            <div class="signupForgot">
+                <a href="">Not a Member, Signup!</a>
+                <a href="">Forgot your password?</a>
+            </div>
+        </main>
+
+    </body>
+</html>

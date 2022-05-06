@@ -1,0 +1,151 @@
+/* common styles-start */
+
+* {
+    text-decoration: none;
+    font-family: Gotham;
+    src: url(fonts/Gotham-Medium.otf);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::placeholder{
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Body {
+    background-image: url(img/761360.jpg);
+    position: relative;
+    background-size: 100% 100vh;
+    margin: 10;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* common styles-end */
+
+/* index-start*/
+
+.div1 {
+    margin-left: 40px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.div2 {
+    direction: rtl;
+    margin-right: 80px;
+    margin-top: 100px;
+}
+
+.Buttons {
+    background-color: rgba(216, 215, 215, 0.75);
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 40px;
+}
+
+.div3 {
+    direction: rtl;
+    background-color: white;
+    border-width: 10px;
+    border-color: black;
+    margin-right: 150px;
+}
+
+/* index-end */
+
+/* login-start */
+
+#navHeader{
+    width: 100vw;
+    height: 50px;
+    background-color: rgba(255, 253, 250, 0.55);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#navHeader li {
+    font-size: larger;
+    float: left;
+    margin-left: 20px;
+    list-style: none;
+}
+
+#login {
+    margin-top: 9%;
+    border-radius: 10px;
+    background-color:rgba(255, 253, 250, 0.55);
+    width: 330px;
+}
+
+
+#login h1 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#login form{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+#login input {
+    height: 50px;
+    width: 250px;
+    font-size: 27.5px;
+    border: 0;
+    border-radius: 6px;
+    background-color: rgba(255, 253, 250, 1);
+    margin-top: 8px;
+}
+
+#login button {
+    height: 30px;
+    width: 90px;
+    font-size:20px ;
+    border-radius: 5px;
+    margin-top: 16px;
+    border: 0px;
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 0.4s;
+}
+
+#login button:hover {
+    background-color: aqua;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.signupForgot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgba(0, 0, 255, 0.659);
+    padding: 8px;
+}
+/* login-end */
+
